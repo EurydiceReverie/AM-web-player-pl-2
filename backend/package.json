@@ -1,0 +1,17 @@
+{
+  "name": "papaya-proxy-backend",
+  "version": "1.0.0",
+  "description": "CORS Proxy for Papaya Player",
+  "main": "proxy-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "fetch-cookie": "^2.1.0",
+    "tough-cookie": "^4.1.3"
+  }
+}
